@@ -26,9 +26,12 @@ _Record users dreams, and find congruent patterns across the world_
 
 * _Clone or download this repository located at https://github.com/fetonecontrol/DreamJournal.Solution
 * _Open in your code editor of choice_
-* _Run $ dotnet restore to download all dev dependencies_
-* _Run $ dotnet build to build project_
-* _Run $ dotnet run to run project_
+* _Run $ "dotnet restore to download all dev dependencies"_
+* _Run $ "dotnet build to build project"_
+* _Run $ "dotnet ef database update" to update database_
+* _Run $ "dotnet run" to run project_
+
+## API endpoints
 
 ## Known Bugs
 
