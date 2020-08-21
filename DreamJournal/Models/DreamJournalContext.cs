@@ -17,7 +17,7 @@ namespace DreamJournal.Models
     {
       builder.Entity<Dream>()
         .HasData(
-          new Dream { DreamId = 1, Title = "Polar Bear in Thailand", Body = "I dreamt I was floating down a river in Thailand, that was forested, and had settlements on the side of the river."}
+          new Dream { DreamId = 1, Title = "Example", UserName = "Frederick Ernest", Date = new DateTime (2020, 1, 1), Body = "I dreamt I was floating down a river in Thailand, that was forested, and had settlements on the side of the river."}
         );
     }
     }

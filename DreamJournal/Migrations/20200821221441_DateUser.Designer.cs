@@ -3,14 +3,16 @@ using System;
 using DreamJournal.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DreamJournal.Migrations
 {
     [DbContext(typeof(DreamJournalContext))]
-    partial class DreamJournalContextModelSnapshot : ModelSnapshot
+    [Migration("20200821221441_DateUser")]
+    partial class DateUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

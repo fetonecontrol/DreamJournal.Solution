@@ -46,40 +46,6 @@ namespace DreamJournal.Controllers
 
       return query.ToList();
     }
-    // [HttpGet("AverageSpan")]
-    // public ActionResult<int> AverageSpan(string name, string country, string city, string architect)
-    // {
-    //   var query = _db.Dreams.AsQueryable();
-
-    //   if (name != null)
-    //   {
-    //     query = query.Where(entry => entry.Name == name);
-    //   }
-    //   if (country != null)
-    //   {
-    //     query = query.Where(entry => entry.Country == country);
-    //   }
-    //   if (city != null)
-    //   {
-    //     query = query.Where(entry => entry.City == city);
-    //   }
-    //   if (architect != null)
-    //   {
-    //     query = query.Where(entry => entry.Architect == architect);
-    //   }
-
-    //   List<Dream> listOfQuery = query.ToList();
-    //   int count = 0; 
-
-    //   for (int i = 0; i < listOfQuery.Count; i++)
-    //   {
-    //     count += listOfQuery[i].Span;
-    //   }
-    //   int average = count/listOfQuery.Count;
-      
-    //   return average;
-    // }
-
 
     [HttpGet("{id}")]
     public ActionResult<Dream> Get(int id)
