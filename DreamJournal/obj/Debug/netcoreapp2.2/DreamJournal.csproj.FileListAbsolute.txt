@@ -12,3 +12,17 @@
 /Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.RazorTargetAssemblyInfo.cache
 /Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.dll
 /Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.pdb
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/bin/Debug/netcoreapp2.2/DreamJournal.deps.json
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/bin/Debug/netcoreapp2.2/DreamJournal.runtimeconfig.json
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/bin/Debug/netcoreapp2.2/DreamJournal.runtimeconfig.dev.json
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/bin/Debug/netcoreapp2.2/DreamJournal.dll
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/bin/Debug/netcoreapp2.2/DreamJournal.pdb
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.csprojAssemblyReference.cache
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.csproj.CoreCompileInputs.cache
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.RazorAssemblyInfo.cache
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.RazorAssemblyInfo.cs
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.AssemblyInfoInputs.cache
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.AssemblyInfo.cs
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.RazorTargetAssemblyInfo.cache
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.dll
+/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/Debug/netcoreapp2.2/DreamJournal.pdb

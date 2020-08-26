@@ -24,7 +24,7 @@ namespace DreamJournal.Controllers
     {
       var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
       var pagedData = _db.Users
-        .OrderBy(thing => thing.DreamId)
+        .OrderBy(thing => thing.UserId)
         .Skip((validUrlQuery.PageNumber - 1) * validUrlQuery.PageSize)
         .Take(validUrlQuery.PageSize);
       return Ok(pagedData);
@@ -32,48 +32,44 @@ namespace DreamJournal.Controllers
 
     // GET api/Users  
     [HttpGet]
-    public ActionResult<IEnumerable<Dream>> Get(string title, string body)
+    public ActionResult<IEnumerable<User>> Get(string userName)
     {
       var query = _db.Users.AsQueryable();
-      if (title != null)
+      if (userName != null)
       {
-        query = query.Where(entry => entry.Title == title);
-      }
-      if (body != null)
-      {
-        query = query.Where(entry => entry.Body == body);
+        query = query.Where(entry => entry.UserName == userName);
       }
 
       return query.ToList();
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Dream> Get(int id)
+    public ActionResult<User> Get(int id)
     {
-        return _db.Users.FirstOrDefault(entry => entry.DreamId == id);
+        return _db.Users.FirstOrDefault(entry => entry.UserId == id);
     }
 
     // PUT api/Users/5
     [HttpPut("{id}")]
-    public void Put(int id, [FromBody] Dream dream)
+    public void Put(int id, [FromBody] User user)
     {
-        dream.DreamId = id;
-        _db.Entry(dream).State = EntityState.Modified;
+        user.UserId = id;
+        _db.Entry(user).State = EntityState.Modified;
         _db.SaveChanges();
     }
 
     // POST api/Users
     [HttpPost]
-    public void Post([FromBody] Dream dream)
+    public void Post([FromBody] User user)
     {
-      _db.Users.Add(dream);
+      _db.Users.Add(user);
       _db.SaveChanges();
     }
     [HttpDelete("{id}")]
     public void Delete(int id)
     {
-      var dreamToDelete = _db.Users.FirstOrDefault(entry => entry.DreamId == id);
-      _db.Users.Remove(dreamToDelete);
+      var userToDelete = _db.Users.FirstOrDefault(entry => entry.UserId == id);
+      _db.Users.Remove(userToDelete);
       _db.SaveChanges();
     }
   }

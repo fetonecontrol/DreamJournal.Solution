@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/DreamJournal.csproj",
+      "projectUniqueName": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/DreamJournal.csproj",
       "projectName": "DreamJournal",
-      "projectPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/DreamJournal.csproj",
+      "projectPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/DreamJournal.csproj",
       "packagesPath": "/Users/frederickernest/.nuget/packages/",
-      "outputPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal.Solution/DreamJournal/obj/",
+      "outputPath": "/Users/frederickernest/Desktop/Epicodus/DreamJournal/DreamJournal.Solution/DreamJournal/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

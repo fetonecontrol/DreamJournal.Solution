@@ -12,6 +12,7 @@ namespace DreamJournal.Models
     }
 
     public DbSet<Dream> Dreams { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -19,6 +20,10 @@ namespace DreamJournal.Models
         .HasData(
           new Dream { DreamId = 1, Title = "Example", UserName = "Frederick Ernest", Date = new DateTime (2020, 1, 1), Body = "I dreamt I was floating down a river in Thailand, that was forested, and had settlements on the side of the river."}
         );
+      builder.Entity<User>()
+      .HasData(
+        new User { UserId = 1, UserName = "Frederick Ernest"}
+      );
     }
     }
 }

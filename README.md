@@ -33,6 +33,48 @@ _Record users dreams, and find congruent patterns across the world_
 
 ## API endpoints
 
+* While api is running, the base level endpoint for both Users and Dreams is:
+
+* (https://localhost:5000/api/Dreams)
+
+* (https://localhost:5000/api/Users)
+
+* The following endpoints work for both DB objects interchangibly. Replace User with Dream or vice versa.
+Some methods will need to spesify somewthing other than "GET" in your API call. They are noted below, along with the key value pairs for posting information.
+
+* Select "raw" and "json" for put and post methods.
+
+| Function | Endpoint | Request Type |
+| :------------- | :------------- | :------------ |
+
+| ** Return a list of Dreams or Users. | (https://localhost:5000/api/Dreams) | Get |
+
+| ** Create a Dream or User. | (https://localhost:5000/api/Dreams/Create) | Post | 
+
+| ** Lookup a spesific Dream or User by Id. | (https://localhost:5000/api/Dreams/{int}) | Get | 
+
+| ** Lookup a spesific Dream or User by a complete match in an field related to an object ?Field={query}. | (https://localhost:5000/api/Dreams/?Title={String}) | Get | 
+
+| ** Edit a Dream or User. | (https://localhost:5000/api/Dreams/{int}) | Put |
+
+| ** Delete a Dream or User. | (https://localhost:5000/api/Dreams/{int}) | Delete |
+
+
+## Possible keys and values for Dream Fields
+* {
+*   "dreamId": 3,
+*   "date": "0001-01-01T00:00:00",
+*   "title": "its a dream",
+*   "userName": Frederick,
+*   "body": "Once upon a dream, I ate snacks in the park all day"
+* }
+
+## Possible values for User Fields
+* {
+*   "userId": 1,
+*   "userName": "Frederick Ernest"
+* }
+
 ## Known Bugs
 
 _No known bugs_
