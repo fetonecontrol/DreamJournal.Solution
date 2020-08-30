@@ -42,6 +42,8 @@ _Record users dreams, and find congruent patterns across the world_
 * The following endpoints work for both DB objects interchangibly. Replace User with Dream or vice versa.
 Some methods will need to specify somewthing other than "GET" in your API call. They are noted below, along with the key value pairs for posting information.
 
+* _This project supports pagination for both classes, the endpoint (https://localhost:5000/api/{class}/Page/{pageNumber/}) will let you cycle through pages with two entries per page, for effeciency._
+
 * Select "raw" and "json" for put and post methods.
 
 | Function | Endpoint | Request Type |
@@ -59,7 +61,6 @@ Some methods will need to specify somewthing other than "GET" in your API call. 
 
 | ** Delete a Dream or User. | (https://localhost:5000/api/Dreams/{int}) | Delete |
 
-## This project supports pagination through Entity
 
 
 
