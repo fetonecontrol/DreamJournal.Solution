@@ -40,7 +40,7 @@ _Record users dreams, and find congruent patterns across the world_
 * (https://localhost:5000/api/Users)
 
 * The following endpoints work for both DB objects interchangibly. Replace User with Dream or vice versa.
-Some methods will need to spesify somewthing other than "GET" in your API call. They are noted below, along with the key value pairs for posting information.
+Some methods will need to specify somewthing other than "GET" in your API call. They are noted below, along with the key value pairs for posting information.
 
 * Select "raw" and "json" for put and post methods.
 
@@ -58,6 +58,10 @@ Some methods will need to spesify somewthing other than "GET" in your API call. 
 | ** Edit a Dream or User. | (https://localhost:5000/api/Dreams/{int}) | Put |
 
 | ** Delete a Dream or User. | (https://localhost:5000/api/Dreams/{int}) | Delete |
+
+## This project supports pagination through Entity
+
+
 
 
 ## Possible keys and values for Dream Fields

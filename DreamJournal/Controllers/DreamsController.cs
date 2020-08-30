@@ -19,10 +19,10 @@ namespace DreamJournal.Controllers
       _db = db;
     }
 
-    [HttpGet("Page")]
-    public IActionResult GetAll([FromQuery] UrlQuery urlQuery)
+    [HttpGet("Page/{pageNumber}")]
+    public IActionResult GetAll([FromQuery] UrlQuery urlQuery, int pageNumber)
     {
-      var validUrlQuery = new UrlQuery(urlQuery.PageNumber, urlQuery.PageSize);
+      var validUrlQuery = new UrlQuery(urlQuery.PageNumber = pageNumber, urlQuery.PageSize);
       var pagedData = _db.Dreams
         .OrderBy(thing => thing.DreamId)
         .Skip((validUrlQuery.PageNumber - 1) * validUrlQuery.PageSize)
